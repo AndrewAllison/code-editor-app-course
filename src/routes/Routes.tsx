@@ -7,7 +7,6 @@ import ProtectedRoute from '../auth/ProtectedRoute';
 import Header from '../components/common/header/Header';
 import Home from '../pages/home/Home';
 import routeDetails from './route-details';
-const checkIsMobile = () => (window.innerWidth < 960 ? true : false);
 
 const useStyles = makeStyles((theme) => {
   return {
@@ -19,17 +18,17 @@ const useStyles = makeStyles((theme) => {
     page: {
       height: '100%',
       [theme.breakpoints.down('sm')]: {
-        backgroundColor: theme.palette.primary.main,
+        //  backgroundColor: theme.palette.primary.main,
         padding: theme.spacing(1),
         marginTop: '56px'
       },
       [theme.breakpoints.up('md')]: {
-        backgroundColor: theme.palette.primary.main,
+        // backgroundColor: theme.palette.primary.main,
         padding: theme.spacing(2),
         marginTop: '64px'
       },
       [theme.breakpoints.up('lg')]: {
-        backgroundColor: theme.palette.primary.main,
+        // backgroundColor: theme.palette.primary.main,
         padding: theme.spacing(2),
         marginTop: '64px'
       },
