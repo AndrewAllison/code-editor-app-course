@@ -11,7 +11,6 @@ import { ReactComponent as RubyIcon } from '../../assets/images/ruby-original.sv
 import { ReactComponent as TypeScriptIcon } from '../../assets/images/typescript-original.svg';
 import { ReactComponent as ReactIcon } from '../../assets/images/react-original.svg';
 
-
 const useStyles = makeStyles((theme) => ({
   icon: {
     padding: '10px',

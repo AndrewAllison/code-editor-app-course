@@ -1,5 +1,5 @@
 import { PayloadAction } from '@reduxjs/toolkit';
-import UserFile from '../../types/UserFile';
+import UserFile from '../../../types/UserFile';
 import fileReducer, { addActiveFile, initialState, removeActiveFile, setEditorActiveFile, setFiles, updateFileCode } from './reducer';
 
 describe('files reducer', () => {
