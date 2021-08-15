@@ -1,10 +1,10 @@
 import { useAuth0 } from '@auth0/auth0-react';
 import { makeStyles, Paper } from '@material-ui/core';
-import { green } from '@material-ui/core/colors';
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router';
 import ProtectedRoute from '../auth/ProtectedRoute';
 import Header from '../components/common/header/Header';
+import CodeEditor from '../pages/code-editor/CodeEditor';
 import Home from '../pages/home/Home';
 import routeDetails from './route-details';
 
@@ -46,7 +46,7 @@ const Routes = () => {
       <Switch>
         <ProtectedRoute
           path={routeDetails.codeEditor}
-          component={() => <div>Code Editor</div>}
+          component={CodeEditor}
           exact
         />
         <Route exact path={routeDetails.home}>
