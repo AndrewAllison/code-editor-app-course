@@ -6,7 +6,7 @@ import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import selectFileViewerData from '../../store/selectors/selectFileViewerData/selectFileViewerData';
 import openFile from '../../store/thunks/openFiles';
 import FileViewerStructure from '../../types/FileViewerStructure';
-import ExtensionIcon from '../code-editor/ExtensionIcon/ExtensionIcon';
+import ExtensionIcon from '../code-editor/editor/ExtensionIcon';
 
 const useStyles = makeStyles((theme) => ({
   root: {

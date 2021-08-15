@@ -1,10 +1,10 @@
 import { makeStyles } from '@material-ui/core';
 import { Close } from '@material-ui/icons';
 import React, { MouseEventHandler } from 'react';
-import ExtensionIcon from '../../components/code-editor/ExtensionIcon/ExtensionIcon';
-import { useAppDispatch } from '../../store/hooks';
-import closeFile from '../../store/thunks/closeFile';
-import UserFile from '../../types/UserFile';
+import ExtensionIcon from '../editor/ExtensionIcon';
+import { useAppDispatch } from '../../../store/hooks';
+import closeFile from '../../../store/thunks/closeFile';
+import UserFile from '../../../types/UserFile';
 
 interface Props {
   activeFile: UserFile;

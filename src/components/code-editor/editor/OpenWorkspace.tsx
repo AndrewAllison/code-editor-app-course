@@ -1,8 +1,8 @@
 import { Button, makeStyles } from '@material-ui/core';
 import React, { AriaAttributes, DOMAttributes, useRef } from 'react';
-import { useAppDispatch } from '../../store/hooks';
-import readFiles from '../../store/thunks/readFiles';
-import { commonColors } from '../../themes/colors';
+import { useAppDispatch } from '../../../store/hooks';
+import readFiles from '../../../store/thunks/readFiles';
+import { commonColors } from '../../../themes/colors';
 
 const useStyles = makeStyles((theme) => ({
   root: {},

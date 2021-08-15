@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react';
 import SignOut from '../../../auth/SignOut';
-import OpenWorkspace from '../../code-editor/OpenWorkspace';
+import OpenWorkspace from '../../code-editor/editor/OpenWorkspace';
 
 const useStyles = makeStyles(() => ({
   root: {

@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core';
 import React from 'react';
 import FileViewer from '../../components/file-viewer/FileViewer';
-import EditorContainer from './EditorContainer';
+import EditorContainer from '../../components/code-editor/editor-container/EditorContainer';
 
 const useStyles = makeStyles((theme) => ({
   root: {
